@@ -8,12 +8,12 @@ const GetQuotes = () => {
   const colorRef = useRef(null);
 
   const COLORS = [
-    '#ffd6ff',
-    '#f4acb7',
-    '#fefae0',
-    '#f0e6ef',
-    '#ccff33',
-    '#2667ff'
+    '#edf2fb',
+    '#daf0ee',
+    '#feefdd',
+    '#ffcbf2',
+    '#ddd7eb3',
+    '#f5daeff'
   ]
 
   const url =
@@ -40,8 +40,8 @@ const GetQuotes = () => {
 
   return (
     <div className="quote-container" ref={colorRef}>
-      <p id="quote">{quote}</p>
-      <p id="author">Author: {author}</p>
+      <h4 id="quote">{quote}</h4>
+      <p id="author">- {author} -</p>
       <button onClick={getRandomQuote}>Generate new</button>
     </div>
   );

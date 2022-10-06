@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap');
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 body {
-  background-color: bisque;
+  background-color: #57359c;
 }
 
 .App {
@@ -16,7 +16,12 @@ body {
 }
 
 #app-header {
-  margin-top: 2rem;
+  margin-top: 4rem;
   font-weight: 900;
+}
+
+h1 {
+  color: #eeebf5;
+  font-size: 64px;
 }
 

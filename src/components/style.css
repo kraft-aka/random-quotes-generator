@@ -4,27 +4,29 @@
   top:25%;
   width: 50%;
   height: 20%;
-  margin-top: 10rem;
+  margin-top: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: aquamarine;
+  background-color: #a8d5e5;
   padding: 50px 50px;
   border-radius: 1rem;
   box-shadow: 10px 10px 15px rgba(0,0,0,0.25);
 }
 
 #quote {
-  font-size: 24px;
-  font-weight: 400;
+  font-size: 32px;
+  font-weight: 00;
   padding: 1rem;
-  color: tomato;
+  color: #2c1b4e;
 }
 
 #author {
   font-size: 18px;
   padding: 1rem;
+  font-weight: 700;
+  color: #2c1b4e;
 }
 
 button {
@@ -35,4 +37,14 @@ button {
   width: 50%;
   border-radius: 5px;
   cursor: pointer;
+  background-color:#57359c;
+  color:#eeebf5;
+  font-weight: 700;
+  transition: .5s all;
+}
+
+button:hover {
+  background-color: #b39ce5;
+  color: #57359c;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
 }
