@@ -1,4 +1,19 @@
-# Getting Started with Create React App
+# Description
+This app allows uesr click on the button and get a random quote.
+Every time thebackground of changes with new quote.
+It makes fetch requests to outer source which contains these quotes and authors.  
+
+## Technologies
+- React 
+- CSS
+
+## Screenshots
+![2022-10-06_18-06-57](https://user-images.githubusercontent.com/57872789/195870229-bf6c0238-1c62-4f67-a284-132dab15a07c.png)
+
+![2022-10-06_18-07-53](https://user-images.githubusercontent.com/57872789/195870301-bb175975-bdab-4af9-b49b-654afeff8ec5.png)
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
